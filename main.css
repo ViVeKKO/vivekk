@@ -8,7 +8,7 @@ nav{
     /* padding-top: 0px; */
     background: black;
     color: aliceblue;
-    height: 9vh;
+    height: 10.5vh;
 }
 ul{
     float: right;
@@ -18,15 +18,16 @@ ul{
 li{
     list-style: none;
     float: left;
-    padding: 19px;
+    padding: 20px;
 }
 /* nav{
     color: white;
     /* background: black; */
 
 li:hover{
-background: wheat;
-color: black;
+background: rgb(111, 109, 230);
+color: whitesmoke;
+transition: 0.4s ease-in-out;
 }
 .front{
     list-style: none;
@@ -37,4 +38,11 @@ color: black;
 .for{
     float: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+    width: 70%;
+    height: 70%
+}
+#x{
+    float: left;
 }
