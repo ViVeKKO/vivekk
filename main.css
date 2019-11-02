@@ -1,21 +1,40 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav{
+    /* padding: 25px; */
+    /* padding-top: 0px; */
+    background: black;
+    color: aliceblue;
+    height: 9vh;
 }
 ul{
     float: right;
     background: black;
+    
 }
 li{
     list-style: none;
     float: left;
-    padding: 20px;
+    padding: 19px;
 }
-nav{
+/* nav{
     color: white;
-    background: black;
-}
+    /* background: black; */
+
 li:hover{
 background: wheat;
-color: black;;
+color: black;
+}
+.front{
+    list-style: none;
+    float: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 19px;
+}
+.for{
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
