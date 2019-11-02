@@ -3,7 +3,8 @@
     padding: 0px;
 }
 ul{
-    float: right;;
+    float: right;
+    background: black;
 }
 li{
     list-style: none;
@@ -11,6 +12,10 @@ li{
     padding: 20px;
 }
 nav{
-    color: aqua;
+    color: white;
     background: black;
+}
+li:hover{
+background: wheat;
+color: black;;
 }
