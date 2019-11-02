@@ -8,7 +8,9 @@ ul{
 li{
     list-style: none;
     float: left;
+    padding: 20px;
 }
 nav{
     color: aqua;
+    background: black;
 }
