@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    float: right;;
+}
+li{
+    list-style: none;
+    float: left;
+}
+nav{
+    color: aqua;
+}
