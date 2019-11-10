@@ -3,6 +3,9 @@
     padding: 0px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+body{
+    background: #e84118;
+}
 nav{
     /* padding: 25px; */
     /* padding-top: 0px; */
@@ -10,7 +13,7 @@ nav{
     color: aliceblue;
     height: 10.5vh;
 }
-ul{
+.Head{
     float: right;
     background: black;
     
@@ -34,10 +37,12 @@ transition: 0.4s ease-in-out;
     float: right;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 19px;
+    
 }
 .for{
     float: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
 }
 img{
     width: 70%;
@@ -45,4 +50,49 @@ img{
 }
 #x{
     float: left;
+}
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding:10px;
+
+}
+.search-btn{
+    color: #e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    /* line-height: 2; */
+    justify-content: center;
+    align-items: center;
+    outline: none;
+
+}
+.search-text{
+    background: #2f3640;
+    border: none;
+    color: white;
+    line-height: 2.8;
+    align-items: center;
+    justify-content: center;
+    width: 0px;
+    transition: 0.4s;
+    outline: none;
+    
+}
+.search-box:hover > .search-text{
+    width: 240px;
+    padding: 0 6px;
+
+}
+.search-box:hover > .search-btn{
+    background: white;
 }
