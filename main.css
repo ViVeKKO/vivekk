@@ -96,3 +96,48 @@ img{
 .search-box:hover > .search-btn{
     background: white;
 }
+.share
+{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.share-btn{
+    width: 280px;
+    height: 80px;
+    background: #dfe6e9;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.share-btn:hover{
+    transform: scale(1.2);
+}
+.share-btn span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: wheat;
+    text-align: center;
+    line-height: 80px;
+    z-index: 999;
+    transition: .6s linear;
+    border-radius: 40px;
+}
+.share-btn:hover span{
+    transform: translateX(-100%)
+}
+.share-btn a{
+    flex: 1;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    /* transform: translateX(-100%); */
+}
