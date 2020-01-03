@@ -112,7 +112,7 @@ img{
     align-items: center;
     justify-content:center;
     overflow: hidden;
-    position: relative;
+    
     cursor: pointer;
     transition: .3s linear;
 }
